@@ -9,6 +9,7 @@ body{
 }
 
 h1{
+  font-size: 21px;
   position: relative;
   margin: 0 30px;
   left: 90px;
@@ -24,20 +25,20 @@ hr{
 }
 
 .divContenedor{
-
+  padding: 90px;
 }
 
 /*img*/
 .coder{
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 
 /*div*/
 .foto{
   position: relative;
   display: inline-block;
-  margin: 10px;
+  margin: 20px;
   left: 90px;
   top: 50px;
 }
@@ -49,4 +50,9 @@ hr{
   bottom: 20px;
   font-size: 14px;
   color: white;
+}
+
+.foto:hover{
+  opacity: 0.5;
+  background-color: rgb(153, 153, 153);
 }
