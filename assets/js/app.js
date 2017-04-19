@@ -29,6 +29,7 @@ window.onload = function() {
 
     div.appendChild(img);
     div.appendChild(span);
+    span.appendChild(nombreCoder);
     body.appendChild(div);
   }
 }
