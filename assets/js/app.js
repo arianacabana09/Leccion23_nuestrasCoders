@@ -1,6 +1,7 @@
 var body = document.getElementsByTagName("body")[0];
 
 // crear elementos para HTML
+var divContenedor = document.createElement("div");
 var tittle = document.createElement("h1");
 tittle.innerText = "Nuestras Coders";
 var hr = document.createElement("hr");
@@ -30,6 +31,7 @@ window.onload = function() {
     div.appendChild(img);
     div.appendChild(span);
     span.appendChild(nombreCoder);
-    body.appendChild(div);
+    divContenedor.appendChild(div);
+    body.appendChild(divContenedor);
   }
 }
